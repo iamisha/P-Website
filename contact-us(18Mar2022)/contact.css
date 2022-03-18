@@ -9,7 +9,7 @@ body {
     background: rgb(6, 2, 19);
 }
 
-.center {
+.align {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -21,18 +21,18 @@ body {
     border-radius: 10px;
 }
 
-.center h2 {
+.align h2 {
     margin: 0 0 30px;
     padding: 0;
     color: aliceblue;
     text-align: left;
 }
 
-.center .user-box {
+.align .contact-box {
     position: relative;
 }
 
-.center .user-box input {
+.align .contact-box input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -44,7 +44,7 @@ body {
     background: transparent;
 }
 
-.center .user-box label {
+.align .contact-box label {
     position: absolute;
     top: 0;
     left: 0;
@@ -55,8 +55,8 @@ body {
     transition: .5s;
 }
 
-.center .user-box input:focus~label,
-.center .user-box input:valid~label {
+.align .contact-box input:focus~label,
+.align .contact-box input:valid~label {
     top: -20px;
     left: 0;
     color: 0;
@@ -64,7 +64,7 @@ body {
     font-size: 12px;
 }
 
-.center form a {
+.align form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -78,14 +78,7 @@ body {
     letter-spacing: 40x;
 }
 
-
-/*.center a:hover {
-    background: rgb(233, 170, 233);
-    color: aliceblue;
-    box-shadow: 0 0 5px rgb(233, 170, 233), 0 0 25px rgb(233, 170, 233), 0 0 50px rgb(233, 170, 233), 0 0 100px rgb(233, 170, 233);
-}*/
-
-.center form button {
+.align form button {
     padding: 10px;
     font-size: 14px;
     cursor: pointer;
@@ -111,7 +104,27 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.align form button:hover {
+    box-shadow: 0 0 5px rgb(224, 40, 147), 0 0 25px rgb(224, 40, 147), 0 0 50px rgb(224, 40, 147), 0 0 100px rgb(224, 40, 147);
+}
+
+.footer {
+    color: rgb(99, 17, 17);
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .footer a {
     color: brown;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea {
+    height: 100px;
+    width: 313px;
 }
