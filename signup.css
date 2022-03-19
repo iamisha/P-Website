@@ -1,0 +1,123 @@
+h2 {
+    color: aqua;
+}
+
+body {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://i.pinimg.com/originals/48/50/01/485001c125237da534aa314a1ee0fd29.gif");
+    background-repeat: no-repeat;
+    background-size: 1600px 780px;
+}
+
+.home {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: aliceblue
+}
+
+.home form {
+    border: 1px solid rgb(43, 49, 54);
+    text-align: right;
+    top: 0;
+}
+
+.home .signup-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(85, 108, 129);
+    outline: none;
+    background: transparent;
+    background-color: transparent;
+}
+
+p {
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(64, 84, 92);
+}
+
+.home .signup-box label {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: aliceblue;
+    pointer-events: none;
+    transition: .5s;
+    text-align: center;
+}
+
+.home .signup-box input:focus~label,
+.home .signup-box input:valid~label {
+    top: 170px;
+    left: 0;
+    color: 0;
+    color: aqua;
+    font-size: 12px;
+}
+
+.home form button {
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border: none;
+    color: aliceblue;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+.home form button:hover {
+    box-shadow: 0 0 5px aqua, 0 0 25px aqua, 0 0 50px aqua, 0 0 100px aqua;
+}
+
+.footer1 p {
+    color: rgb(171, 190, 206);
+    clear: both;
+    position: absolute;
+    left: 600px;
+    bottom: 80px;
+    right: 0;
+    font-size: 10px;
+}
+
+[role=footer] p {
+    color: rgb(171, 190, 206);
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    left: 650px;
+    right: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: aqua;
+}
+
+.main p {
+    position: absolute;
+    right: 0;
+}
+
+.main ul {
+    color: aqua;
+    position: absolute;
+    right: 40px;
+    top: 8px;
+}

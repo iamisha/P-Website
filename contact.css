@@ -64,7 +64,8 @@ body {
     font-size: 12px;
 }
 
-.align form a {
+
+/*.align form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -77,6 +78,7 @@ body {
     margin-top: 40px;
     letter-spacing: 40x;
 }
+*/
 
 .align form button {
     padding: 10px;
@@ -127,4 +129,5 @@ body {
 textarea {
     height: 100px;
     width: 313px;
+    border: 0;
 }
